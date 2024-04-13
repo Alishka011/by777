@@ -1,0 +1,41 @@
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Выбор бота</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+        }
+        .bot-list {
+            list-style: none;
+            padding: 0;
+        }
+        .bot-list li {
+            margin: 10px;
+        }
+        .bot-link {
+            color: #fff;
+            background-color: #333;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+            transition: background-color 0.3s;
+        }
+        .bot-link:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <h1>Выберите бота</h1>
+    <ul class="bot-list">
+        <li><a href="https://t.me/MONEYTRANSFER777_BOT" class="bot-link" target="_blank">MONEYTRANSFER by777</a></li>
+        <li><a href="https://t.me/MONEYEXCHANGE777_BOT" class="bot-link" target="_blank">MONEYEXCHANGE by777</a></li>
+        <!-- Добавьте дополнительные боты сюда -->
+    </ul>
+</body>
+</html>
